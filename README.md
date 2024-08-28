@@ -26,7 +26,7 @@ Open the ConnectionManager.java file.<br> Update the following fields with your 
 
 <pre> String url = "jdbc:mysql://localhost:3306/project"; String username = "root"; String password = "your-password"; </pre>
 ## Classes and Working
-### 1. Student<br> Fields:<br>
+** 1. Student Fields: **<br>
 
 id: An integer representing the student ID.<br>
 name: A string representing the student's name.<br> Methods:<br>
