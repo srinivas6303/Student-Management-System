@@ -1,8 +1,8 @@
-Student Management System
-Overview
+### Student Management System
+## Overview
 The Student Management System is a simple Java-based application that allows users to perform CRUD (Create, Read, Update, Delete) operations on student records stored in a MySQL database.<br> The application demonstrates basic database connectivity and interaction using JDBC.
 
-Features
+## Features
 Add Student: Add a new student record to the database.<br>
 View Student: Retrieve and display a student's details by their ID.<br>
 View All Students: Retrieve and display the details of all students.<br>
