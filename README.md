@@ -1,7 +1,7 @@
 # Student Management System
 
 ## Overview
-The Student Management System is a simple Java-based application that allows users to perform CRUD (Create, Read, Update, Delete) operations on student records stored in a MySQL database. The application demonstrates basic database connectivity and interaction using JDBC.
+The Student Management System is a simple Java-based application that allows users to perform CRUD (Create, Read, Update, Delete) operations on student records stored in a MySQL database.<br> The application demonstrates basic database connectivity and interaction using JDBC.
 
 ## Features
 - **Add Student**: Add a new student record to the database.
@@ -16,14 +16,14 @@ The Student Management System is a simple Java-based application that allows use
 - MySQL JDBC Driver (mysql-connector-java).
 
 ### Database Setup
-Ensure MySQL is running.
-Create a database named project:
-sql
+Ensure MySQL is running.<br>
+Create a database named project:<br>
+sql<br>
 CREATE DATABASE project;
-
-Create a student table in the project database:
-sql
-USE project;
+<br>
+Create a student table in the project database:<br>
+sql<br>
+USE project;<br>
 
 CREATE TABLE student (
     id INT PRIMARY KEY,
@@ -31,12 +31,12 @@ CREATE TABLE student (
 );
 
 ### Configure Database Connection
-Open the ConnectionManager.java file.
-Update the following fields with your MySQL credentials:
-java
-String url = "jdbc:mysql://localhost:3306/project";
-String username = "root";
-String password = "your-password";
+Open the ConnectionManager.java file.<br>
+Update the following fields with your MySQL credentials:<br>
+java<br>
+String url = "jdbc:mysql://localhost:3306/project";<br>
+String username = "root";<br>
+String password = "your-password";<br>
 
 
 ### Classes and Working
@@ -58,6 +58,7 @@ con: A Connection object used to interact with the MySQL database.
 scanner: A Scanner object for reading user input.
 Constructor:
 Initializes the database connection using JDBC.
+<br>
 Methods:
 addStudent(): Adds a new student record to the database by taking the student ID and name as input.
 getStudent(): Retrieves and displays the details of a student based on the given ID.
