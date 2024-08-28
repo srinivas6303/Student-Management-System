@@ -71,10 +71,10 @@ Purpose: This is the entry point of the application. It provides a menu-driven i
 Working: The Main class creates an instance of ConnectionManager and presents a menu with options to add, view, update, and delete student records. Based on the user's input, it calls the corresponding methods in the ConnectionManager class.
 
 ## Usage
-Upon running the application, you'll be prompted with a menu to manage student records:
-Add Student: Enter student ID and name to add a new student.
-View Student: Enter a student ID to view details of a specific student.
-View All Students: Display details of all students in the database.
-Update Student: Enter a student ID and new name to update an existing student's details.
-Delete Student: Enter a student ID to remove the student from the database.
+Upon running the application, you'll be prompted with a menu to manage student records:<br>
+Add Student: Enter student ID and name to add a new student.<br>
+View Student: Enter a student ID to view details of a specific student.<br>
+View All Students: Display details of all students in the database.<br>
+Update Student: Enter a student ID and new name to update an existing student's details.<br>
+Delete Student: Enter a student ID to remove the student from the database.<br>
 Exit: Exit the application.
