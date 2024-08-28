@@ -35,8 +35,8 @@ setId(int id): Sets the student's ID.<br>
 getName(): Returns the student's name.<br>
 setName(String name): Sets the student's name.<br>
 toString(): Returns a string representation of the student object.<br> Purpose: This class represents a student entity and encapsulates the student's details.<br>
-2. ConnectionManager<br> Fields:<br>
 
+**2. ConnectionManager Fields:**<br>
 con: A Connection object used to interact with the MySQL database.<br>
 scanner: A Scanner object for reading user input.<br> Constructor:<br> Initializes the database connection using JDBC.<br> Methods:<br>
 addStudent(): Adds a new student record to the database by taking the student ID and name as input.<br>
@@ -44,9 +44,11 @@ getStudent(): Retrieves and displays the details of a student based on the given
 getStudents(): Retrieves and displays the details of all students in the database.<br>
 removeStudent(): Removes a student record based on the given ID.<br>
 updateStudent(): Updates an existing student's name. If the student ID doesn't exist, it calls the addStudent() method to add a new student.<br> Purpose: This class manages the connection to the database and performs all CRUD operations on the student records.<br>
-3. Main<br> Purpose: This is the entry point of the application. It provides a menu-driven interface for the user to interact with the Student Management System.<br> Working: The Main class creates an instance of ConnectionManager and presents a menu with options to add, view, update, and delete student records. Based on the user's input, it calls the corresponding methods in the ConnectionManager class.<br>
 
-Usage
+**3. Main Purpose:**<br>
+This is the entry point of the application. It provides a menu-driven interface for the user to interact with the Student Management System.<br> Working: The Main class creates an instance of ConnectionManager and presents a menu with options to add, view, update, and delete student records. Based on the user's input, it calls the corresponding methods in the ConnectionManager class.<br>
+
+## Usage
 Upon running the application, you'll be prompted with a menu to manage student records:<br>
 
 Add Student: Enter student ID and name to add a new student.<br>
