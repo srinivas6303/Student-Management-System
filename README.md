@@ -8,11 +8,13 @@ View Student: Retrieve and display a student's details by their ID.<br>
 View All Students: Retrieve and display the details of all students.<br>
 Update Student: Update an existing student's name.<br>
 Delete Student: Remove a student record from the database.<br>
-Prerequisites
+
+## Prerequisites
 Java Development Kit (JDK) 8 or higher.<br>
 MySQL Database Server.<br>
 MySQL JDBC Driver (mysql-connector-java).<br>
-Database Setup
+
+## Database Setup
 Ensure MySQL is running.<br> Create a database named project:<br>
 
 <pre>CREATE DATABASE project;</pre><br>
@@ -23,8 +25,8 @@ Configure Database Connection
 Open the ConnectionManager.java file.<br> Update the following fields with your MySQL credentials:<br>
 
 <pre> String url = "jdbc:mysql://localhost:3306/project"; String username = "root"; String password = "your-password"; </pre>
-Classes and Working
-1. Student<br> Fields:<br>
+## Classes and Working
+### 1. Student<br> Fields:<br>
 
 id: An integer representing the student ID.<br>
 name: A string representing the student's name.<br> Methods:<br>
